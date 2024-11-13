@@ -31,6 +31,8 @@ class ChimbukoVisualization2(Package):
     depends_on('py-idna', type=('build', 'run'))
     # depends_on('py-jinja2@3.0.3:3.0', type=('build', 'run'))
     depends_on('py-jinja2', type=('build', 'run'))
+    depends_on('py-mpi4py', type=('build', 'run'))
+    depends_on('py-numpy', type=('build', 'run'))
     depends_on('py-redis@4.5.1:4.5', type=('build', 'run'))
     # depends_on('py-requests@2.32.3:', type=('build','run'))
     depends_on('py-requests', type=('build','run'))
