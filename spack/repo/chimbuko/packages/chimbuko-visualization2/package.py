@@ -14,7 +14,7 @@ class ChimbukoVisualization2(Package):
 
     depends_on('python@3.8')
     depends_on('py-mochi-sonata', type=('build', 'run'))
-    # depends_on('py-celery@5.4:', type=('build', 'run'))
+    depends_on('py-celery@5.2.2:', type=('build', 'run'))
     # depends_on('py-certifi@2024.7.4:2024.7', type=('build', 'run'))
     depends_on('py-certifi', type=('build', 'run'))
     # depends_on('py-dnspython@2.6.1:2.6', type=('build', 'run'))
